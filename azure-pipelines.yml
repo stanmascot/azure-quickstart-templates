@@ -20,6 +20,7 @@ steps:
     azureResourceManagerConnection: 'Visual Studio Enterprise Subscription(8634199c-00dd-41af-a63c-5a22d8ab242b)'
     subscriptionId: '8634199c-00dd-41af-a63c-5a22d8ab242b'
     action: 'Create Or Update Resource Group'
+    resourceGroupName: 'ARMPipelinesLAMP-rg'
     location: 'West US'
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
